@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Marketplace.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Marketplace.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marketplace.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Marketplace.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Marketplace.Domain/Marketplace.Domain.csproj",
+      "msbuildProject": "../Marketplace.Domain/Marketplace.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Marketplace.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mahmo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Application\\Marketplace.Application.csproj",
+      "projectName": "Marketplace.Application",
+      "projectPath": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Application\\Marketplace.Application.csproj",
+      "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Domain\\Marketplace.Domain.csproj": {
+              "projectPath": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Domain\\Marketplace.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
