@@ -1680,6 +1680,29 @@
             "rid": "win"
           }
         }
+      },
+      "Marketplace.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Marketplace.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Marketplace.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marketplace.Application.dll": {}
+        }
+      },
+      "Marketplace.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Marketplace.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marketplace.Domain.dll": {}
+        }
       }
     }
   },
@@ -4874,10 +4897,22 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Marketplace.Application/1.0.0": {
+      "type": "project",
+      "path": "../Marketplace.Application/Marketplace.Application.csproj",
+      "msbuildProject": "../Marketplace.Application/Marketplace.Application.csproj"
+    },
+    "Marketplace.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Marketplace.Domain/Marketplace.Domain.csproj",
+      "msbuildProject": "../Marketplace.Domain/Marketplace.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Marketplace.Application >= 1.0.0",
+      "Marketplace.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0"
@@ -4915,7 +4950,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Application\\Marketplace.Application.csproj": {
+              "projectPath": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Application\\Marketplace.Application.csproj"
+            },
+            "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Domain\\Marketplace.Domain.csproj": {
+              "projectPath": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Domain\\Marketplace.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
