@@ -12,10 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f0012fe4-2a0b-4ab6-8d3b-7f7558e0a38e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Marketplace.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431238bf71cbcc63041438e02ecfb4593c797cb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+916a4cad91afc4a48dbf74a926669f75a2f610f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Marketplace.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Marketplace.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

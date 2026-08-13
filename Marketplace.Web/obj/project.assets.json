@@ -2001,9 +2001,6 @@
       "Marketplace.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Marketplace.Domain": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Marketplace.Application.dll": {}
         },
@@ -2025,6 +2022,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Marketplace.Application": "1.0.0",
+          "Marketplace.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
         },
