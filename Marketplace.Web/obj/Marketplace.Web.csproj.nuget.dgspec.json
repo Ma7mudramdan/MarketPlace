@@ -32,7 +32,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Domain\\Marketplace.Domain.csproj": {
+                "projectPath": "D:\\.Net\\MVC\\Projects\\Marketplace\\Marketplace.Domain\\Marketplace.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,6 +54,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -303,7 +321,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

@@ -1,4 +1,4 @@
-// Marketplace.Web/Program.cs
+
 using Marketplace.Infrastructure.Data;
 using Marketplace.Infrastructure.Repositories;
 using Marketplace.Domain.Interfaces.Repositories;
